@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Ropa</h1>
+        <nav>
+            <a href="#productos">Productos</a>
+            <a href="#registro">Registro</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Productos</h2>
+            <ul id="product-list"></ul>
+        </section>
+
+        <section id="registro">
+            <h2>Registro de Usuario</h2>
+            <form id="register-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Registrar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
